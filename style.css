@@ -1,0 +1,130 @@
+section{
+    margin: 25px 28vw;
+    padding: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+h3{
+   color: orange;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.account{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.acc{
+    background-color: rgb(235, 235, 235);
+    width: 95%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+::placeholder{
+    padding: 13px;
+}
+.dategen{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+.dob{
+    width: 50%; 
+    /* border: 1px solid black; */
+}
+.dobinput{
+   background-color: rgb(235, 235, 235);
+   display: inline;
+   width: 70px;
+   height: 40px;
+   border: none;
+   border-radius: 5px;
+}
+.input1{
+    width: 100px;
+}
+.gender{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.gen1,.gen2{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 120px;
+    height: 45px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.pay{
+    height: 40vh;
+}
+.payment{
+    width: 47%;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+.payment2{
+    width: 47%;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    color: grey;
+}
+.card{
+    background-color: rgb(235, 235, 235);
+    width: 516px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.cvc{
+    background-color: rgb(235, 235, 235);
+    width: 244px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+
+}
+.dropdown{
+    background-color: rgb(235, 235, 235);
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+.text{
+    
+    color: gray;
+}
+.checktext{
+    display: flex;
+    justify-content: space-between;
+}
+.check{
+    display: inline;
+    /* border: 1px solid black; */
+}
+.text1{
+    width: 520px;
+    /* border: 1px solid black; */
+}
